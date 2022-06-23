@@ -1,0 +1,143 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header,footer,.hero{
+    background-color: #1f2937;
+}
+
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bolder;
+
+}
+
+.hero-main{
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+
+header ul a,.hero-secondary,.footer-text{
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+
+header,footer{
+    display: flex;
+    padding:12px;
+    justify-content: space-around;
+}
+
+header ul{
+    display: flex;
+    list-style-type: none;
+    gap:10px;
+    margin: 0;
+    padding: 0;
+}
+
+.hero{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items:flex-start;
+    padding : 70px 100px;
+    gap:20px;
+}
+.hero-text{
+    flex:1;
+    padding:10px;
+}
+.hero-image{
+    flex:1;
+}
+.hero-image img{
+    width: 350px;;
+    height: auto;
+}
+
+.hero button{
+    background-color: #3882f8;
+    border: 0;
+    border-radius: 2px;
+    height: 30px;
+    width: 100px;
+    color: #e5e7eb;
+}
+
+.info{
+    text-align: center;
+    padding: 70px;
+}
+
+.info-title{
+    font-size: 36px;
+    font-weight:900;
+    color: #1f2937;
+    margin-bottom: 30px;
+}
+
+.info-container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.info-content{
+    border: #1f2937;
+    max-width: 200px;
+}
+.info-content img{
+    height:150px;
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    align-items:flex-end;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+    padding: 70px;
+}
+.author{
+    font-weight: bold;
+}
+
+.action{
+    display: flex;
+    padding: 70px;
+    justify-content: center;
+}
+.action-modal{
+    display: flex;
+    align-items: center;
+    gap:20px;
+    background-color: #3882f6;
+    padding:50px;
+    border-radius: 10px;
+    color: white;
+}
+.action-title{
+    font-weight: bolder;
+    font-size: 30px;;
+}
+.action-modal .action-button button{
+    color:#e5e7eb;
+    height: 30px;
+    width: 100px;
+    background-color:#3882f6;
+    border-color: #e5e7eb;
+    border-radius:10px;
+}
